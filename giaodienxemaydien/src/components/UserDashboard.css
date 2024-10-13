@@ -1,0 +1,14 @@
+/* UserDashboard.css */
+.user-dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-detail {
+  margin: 20px 0;
+}
+
+.checkout-form {
+  margin-top: 20px;
+}

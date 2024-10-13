@@ -1,0 +1,87 @@
+/* Header.css */
+.header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.top-bar {
+  background-color: #4CAF50;
+  padding: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search {
+  display: flex;
+}
+
+.search input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.auth-buttons {
+  display: flex;
+}
+
+.login-button,
+.register-button,
+.logout-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-categories {
+  background-color: #3f444e;
+  padding: 10px 0;
+}
+
+.nav-categories nav a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.nav-categories nav a:hover {
+  background-color: #4CAF50;
+}
